@@ -1,0 +1,84 @@
+body {
+    background-color: #36363a;
+}
+
+img {
+    display: block;
+   margin: 0 auto;
+}
+
+input[type=text] {
+    padding-left: 60px;
+    width: 500px;
+    margin: 0px;
+    height: 40px;
+    border-radius: 30px;
+    
+    background-image: url("https://cdn1.iconfinder.com/data/icons/menu-3-3/32/google_search_glass-512.png");
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position: 2% 50%;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+ .flex-container > div {
+    background-color: #36363a;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    border-radius: 5%;
+  }
+
+  .button {
+    background-color: #000000;
+    border: none;
+    color: white;
+    padding: 24px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 50%;
+    
+  }
+
+  .flex-container>div:hover {
+background: gray;
+
+  }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #36363a;
+  }
+  
+  li {
+    float: right;
+  }
+
+   .form-container {
+    text-align: center;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    text-decoration: underline;
+  }
+
+  #img-contain {
+      width: 16px;
+      height: 16px;
+  }
+  
